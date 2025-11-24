@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "RajaProperties",
-    "slug": "rajashekhar-mobile",
+    "slug": "raja-properties",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,17 +11,13 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "plugins": [
-      "expo-dev-client"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["expo-dev-client"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "package": "com.rajaproperties.app",
+      "package": "com.rajashekharproperties.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
@@ -29,10 +25,12 @@
     },
     "extra": {
       "eas": {
-        "extra": {
-          "eas": {}
-        },
         "projectId": "0ced403e-0c94-43a1-81e4-5202eef5f6cc"
+      }
+    },
+    "build": {
+      "android": {
+        "kotlinVersion": "1.9.23"
       }
     },
     "owner": "dhanush.gowda"
