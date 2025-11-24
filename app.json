@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "RajaProperties",
-    "slug": "raja-properties",
+    "slug": "rajashekhar-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,12 +27,6 @@
       "eas": {
         "projectId": "0ced403e-0c94-43a1-81e4-5202eef5f6cc"
       }
-    },
-    "build": {
-      "android": {
-        "kotlinVersion": "1.9.23"
-      }
-    },
-    "owner": "dhanush.gowda"
+    }
   }
 }
